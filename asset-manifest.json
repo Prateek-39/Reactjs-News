@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Prateek-39/reactjs-news/static/css/main.073c9b0a.css",
+    "main.js": "/Prateek-39/reactjs-news/static/js/main.eace1ccb.js",
+    "index.html": "/Prateek-39/reactjs-news/index.html",
+    "main.073c9b0a.css.map": "/Prateek-39/reactjs-news/static/css/main.073c9b0a.css.map",
+    "main.eace1ccb.js.map": "/Prateek-39/reactjs-news/static/js/main.eace1ccb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.eace1ccb.js"
+  ]
+}
