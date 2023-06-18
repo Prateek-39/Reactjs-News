@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import News from "./components/News";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
+import Home from "./components/Home";
 
 const App = () => {
   const pageSize = 5;
@@ -16,7 +17,11 @@ const App = () => {
       <Router>
         <NavBar />
         <LoadingBar height={5} color="#f11946" progress={progress} />
+
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route exact path="/business">
             <News
               setProgress={setProgress}

@@ -2,17 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  //   const handleClick = () => {
-  //     window.location.reload();
-  //   };
-
   return (
     <div>
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            NewsBytes
-          </Link>
+          <Link className="navbar-brand">NewsBytes</Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,11 +20,11 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/">
+              {/* <li className="nav-item">
+                <Link className="nav-link" to="/">
                   Home
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/business">
                   Business
